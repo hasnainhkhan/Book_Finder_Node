@@ -1,0 +1,11 @@
+{
+  "name": "book-finder",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "python -m http.server 3000",
+    "build": "echo 'Build complete'",
+    "preview": "python -m http.server 4173"
+  }
+}

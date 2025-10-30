@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="bookGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0284c7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Book Cover -->
+  <rect x="20" y="15" width="60" height="70" rx="4" fill="url(#bookGradient)" stroke="#075985" stroke-width="2"/>
+  
+  <!-- Book Pages -->
+  <rect x="22" y="17" width="56" height="66" rx="2" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Book Title Lines -->
+  <rect x="28" y="25" width="40" height="3" rx="1.5" fill="#0284c7"/>
+  <rect x="28" y="32" width="30" height="2" rx="1" fill="#0369a1"/>
+  
+  <!-- Book Icon on Cover -->
+  <g transform="translate(40, 45)">
+    <rect x="-8" y="-8" width="16" height="16" rx="2" fill="#ffffff" opacity="0.8"/>
+    <path d="M-6 -4 L-6 8 L6 8 L6 -4 Z" fill="none" stroke="#0284c7" stroke-width="1.5"/>
+    <line x1="-3" y1="-1" x2="3" y2="-1" stroke="#0284c7" stroke-width="1"/>
+    <line x1="-3" y1="2" x2="3" y2="2" stroke="#0284c7" stroke-width="1"/>
+    <line x1="-3" y1="5" x2="1" y2="5" stroke="#0284c7" stroke-width="1"/>
+  </g>
+  
+  <!-- Search Icon -->
+  <g transform="translate(70, 25)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#facc15" stroke-width="2"/>
+    <line x1="4.5" y1="4.5" x2="8" y2="8" stroke="#facc15" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <circle cx="30" cy="75" r="2" fill="#facc15" opacity="0.6"/>
+  <circle cx="70" cy="85" r="1.5" fill="#0ea5e9" opacity="0.4"/>
+</svg>
